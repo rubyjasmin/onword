@@ -1,0 +1,29 @@
+{
+  "name": "onword-webclient",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sst bind \"astro dev\"",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "workspaces": {
+    "nohoist": [
+      "astro"
+    ]
+  },
+  "dependencies": {
+    "@astrojs/react": "2.1.0",
+    "@hotwired/turbo": "7.3.0",
+    "astro": "^2.0.18",
+    "onword": "*",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "astro-sst": "2.1.26"
+  },
+  "private": true
+}
