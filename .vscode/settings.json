@@ -1,0 +1,12 @@
+{
+  // Linting tools
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "astro"],
+  "eslint.options": { "overrideConfigFile": "./toolchain/lint/.eslintrc.js" },
+  "prettier.configPath": "./toolchain/lint/.prettierrc",
+  // Test runners
+  "jest.autoRevealOutput": "off",
+  "jest.autoRun": "off",
+  "vitest.enable": true,
+  // Spell check
+  "cSpell.words": ["astro", "astrojs", "onword"]
+}
