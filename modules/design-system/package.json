@@ -1,0 +1,9 @@
+{
+  "name": "@onword/design-system",
+  "version": "0.1.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "yup": "^0.32.9"
+  },
+  "private": true
+}
